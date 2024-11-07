@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+*{
+    font-family: "Cinzel", serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header nav {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px
+}
+
+header ul a {
+    color: whitesmoke;
+    margin: 0 12px;
+    padding: 15px 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header ul a:hover{
+    border-bottom: 1px solid beige;
+}
+
+#hero{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 12%;
+
+}
+
+#hero h2 {
+    font-size: 60px;
+    font-weight: 500;
+    color: yellow;
+}
+
+#hero h1 {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+#hero button {
+    color: silver;
+    background: yellow;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#planes {
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+}
+
+#planes h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#planes p {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+#planes .fila {
+    display: flex;
+    justify-content: center;
+}
+
+#planes article {
+    margin: 20px 50px;
+    position: relative;
+}
+
+#planes article h3 {
+    position: absolute;
+    top: 120px;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+}
+
+#destinos {
+    width: 100%;
+    padding: 120px 0 50px;
+    background: url(../img/bg-destinos.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#destinos h2 {
+    color: yellow;
+    font-size: 50px;
+    margin: 50px;
+}
+
+#destinos .fila {
+display: flex;
+justify-content: center;
+}
+
+#destinos article{
+    margin: 30px 130px;
+}
+
+#destinos h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#contacto{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+    background: yellow;
+}
+
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 30PX;
+}
+
+#contacto p{
+    font-size: 20px;
+    margin-bottom:  30px;
+}
+
+#contacto form{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contacto form input{
+    width: 38%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px ;
+}
+
+#contacto form select{
+    width: 43%;
+    padding: 12px 30px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#contacto button{
+    background: #94940C;
+    color: white;
+    font-size: 22px;
+    padding: 12px 30px;
+    border-radius: 6px;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding:  40px;
+    text-align: center;
+}
